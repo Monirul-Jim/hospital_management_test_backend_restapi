@@ -449,6 +449,134 @@
         "documentation": {}
     },
     {
+        "label": "ContactModel",
+        "importPath": "contact_us.models",
+        "description": "contact_us.models",
+        "isExtraImport": true,
+        "detail": "contact_us.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "importPath": "contact_us.models",
+        "description": "contact_us.models",
+        "isExtraImport": true,
+        "detail": "contact_us.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ContactUsViewSet",
+        "importPath": "contact_us.views",
+        "description": "contact_us.views",
+        "isExtraImport": true,
+        "detail": "contact_us.views",
+        "documentation": {}
+    },
+    {
+        "label": "ContactUsSerializers",
+        "importPath": "contact_us.serializers",
+        "description": "contact_us.serializers",
+        "isExtraImport": true,
+        "detail": "contact_us.serializers",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -522,14 +650,6 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -551,6 +671,38 @@
         "description": "service.models",
         "isExtraImport": true,
         "detail": "service.models",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceModels",
+        "importPath": "service.models",
+        "description": "service.models",
+        "isExtraImport": true,
+        "detail": "service.models",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceModels",
+        "importPath": "service.models",
+        "description": "service.models",
+        "isExtraImport": true,
+        "detail": "service.models",
+        "documentation": {}
+    },
+    {
+        "label": "ServicesViewSet",
+        "importPath": "service.views",
+        "description": "service.views",
+        "isExtraImport": true,
+        "detail": "service.views",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceSerializer",
+        "importPath": "service.serializers",
+        "description": "service.serializers",
+        "isExtraImport": true,
+        "detail": "service.serializers",
         "documentation": {}
     },
     {
@@ -641,6 +793,24 @@
         "description": "contact_us.models",
         "peekOfCode": "class ContactModel(models.Model):\n    name=models.CharField(max_length=30)\n    phone=models.CharField(max_length=12)\n    problem=models.TextField()\n    def __str__(self):\n        return self.name\n    class Meta:\n        verbose_name_plural='Contact Us'",
         "detail": "contact_us.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactUsSerializers",
+        "kind": 6,
+        "importPath": "contact_us.serializers",
+        "description": "contact_us.serializers",
+        "peekOfCode": "class ContactUsSerializers(serializers.ModelSerializer):\n    class Meta:\n        model=ContactModel\n        fields='__all__'",
+        "detail": "contact_us.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactUsViewSet",
+        "kind": 6,
+        "importPath": "contact_us.views",
+        "description": "contact_us.views",
+        "peekOfCode": "class ContactUsViewSet(viewsets.ModelViewSet):\n    queryset=ContactModel.objects.all()\n    serializer_class=ContactUsSerializers",
+        "detail": "contact_us.views",
         "documentation": {}
     },
     {
@@ -792,7 +962,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'doctor',",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -801,7 +971,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'doctor',\n    'patient',\n    'appointment',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'doctor',\n    'patient',",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -927,7 +1097,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nurlpatterns = [\n  path('admin/', admin.site.urls),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nurlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('services/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n    # ... other URL patterns here\n]",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
@@ -936,7 +1106,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('services/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
@@ -1037,6 +1207,24 @@
         "description": "service.models",
         "peekOfCode": "class ServiceModels(models.Model):\n    name=models.CharField(max_length=20)\n    description=models.TextField()\n    image=models.ImageField(upload_to='service/images/')\n    def __str__(self):\n        return self.name\n    class Meta:\n        verbose_name_plural='Service'",
         "detail": "service.models",
+        "documentation": {}
+    },
+    {
+        "label": "ServiceSerializer",
+        "kind": 6,
+        "importPath": "service.serializers",
+        "description": "service.serializers",
+        "peekOfCode": "class ServiceSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ServiceModels\n        fields = '__all__'",
+        "detail": "service.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ServicesViewSet",
+        "kind": 6,
+        "importPath": "service.views",
+        "description": "service.views",
+        "peekOfCode": "class ServicesViewSet(viewsets.ModelViewSet):\n    queryset=ServiceModels.objects.all()\n    serializer_class= ServiceSerializer",
+        "detail": "service.views",
         "documentation": {}
     },
     {
