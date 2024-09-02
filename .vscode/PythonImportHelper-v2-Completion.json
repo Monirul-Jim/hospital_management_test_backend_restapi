@@ -25,6 +25,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -281,11 +297,19 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "AppointmentModel",
+        "importPath": "appointment.models",
+        "description": "appointment.models",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentModel",
+        "importPath": "appointment.models",
+        "description": "appointment.models",
+        "isExtraImport": true,
+        "detail": "appointment.models",
         "documentation": {}
     },
     {
@@ -318,6 +342,30 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PatientModel",
+        "importPath": "patient.models",
+        "description": "patient.models",
+        "isExtraImport": true,
+        "detail": "patient.models",
+        "documentation": {}
+    },
+    {
+        "label": "PatientModel",
+        "importPath": "patient.models",
+        "description": "patient.models",
+        "isExtraImport": true,
+        "detail": "patient.models",
         "documentation": {}
     },
     {
@@ -361,107 +409,19 @@
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "DoctorModel",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "DoctorModel",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
         "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "ContactModel",
-        "importPath": "contact_us.models",
-        "description": "contact_us.models",
-        "isExtraImport": true,
-        "detail": "contact_us.models",
-        "documentation": {}
-    },
-    {
-        "label": "ContactModel",
-        "importPath": "contact_us.models",
-        "description": "contact_us.models",
-        "isExtraImport": true,
-        "detail": "contact_us.models",
-        "documentation": {}
-    },
-    {
-        "label": "ContactModel",
-        "importPath": "contact_us.models",
-        "description": "contact_us.models",
-        "isExtraImport": true,
-        "detail": "contact_us.models",
+        "detail": "doctor.models",
         "documentation": {}
     },
     {
@@ -497,6 +457,102 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
         "label": "DefaultRouter",
         "importPath": "rest_framework.routers",
         "description": "rest_framework.routers",
@@ -513,6 +569,46 @@
         "documentation": {}
     },
     {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentViewSet",
+        "importPath": "appointment.views",
+        "description": "appointment.views",
+        "isExtraImport": true,
+        "detail": "appointment.views",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -558,6 +654,110 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentSerializers",
+        "importPath": "appointment.serializers",
+        "description": "appointment.serializers",
+        "isExtraImport": true,
+        "detail": "appointment.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "importPath": "contact_us.models",
+        "description": "contact_us.models",
+        "isExtraImport": true,
+        "detail": "contact_us.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "importPath": "contact_us.models",
+        "description": "contact_us.models",
+        "isExtraImport": true,
+        "detail": "contact_us.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "importPath": "contact_us.models",
+        "description": "contact_us.models",
+        "isExtraImport": true,
+        "detail": "contact_us.models",
         "documentation": {}
     },
     {
@@ -625,6 +825,22 @@
         "documentation": {}
     },
     {
+        "label": "DoctorViewSet",
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "isExtraImport": true,
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorSerializers",
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "isExtraImport": true,
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -663,6 +879,22 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "PatientViewSets",
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "isExtraImport": true,
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "PatientSerializers",
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "isExtraImport": true,
+        "detail": "patient.serializers",
         "documentation": {}
     },
     {
@@ -724,6 +956,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "appointment.migrations.0002_alter_appointmentmodel_time",
+        "description": "appointment.migrations.0002_alter_appointmentmodel_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('appointment', '0001_initial'),\n        ('doctor', '0004_alter_reviewmodel_rating'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='appointmentmodel',\n            name='time',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='doctor.doctoravailabletime'),",
+        "detail": "appointment.migrations.0002_alter_appointmentmodel_time",
+        "documentation": {}
+    },
+    {
         "label": "AppointmentAdmin",
         "kind": 6,
         "importPath": "appointment.admin",
@@ -746,8 +987,35 @@
         "kind": 6,
         "importPath": "appointment.models",
         "description": "appointment.models",
-        "peekOfCode": "class AppointmentModel(models.Model):\n    patient = models.ForeignKey(PatientModel, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(DoctorModel, on_delete=models.CASCADE)\n    appointment_types=models.CharField(choices=APPOINTMENT_TYPES, max_length=10)\n    appointment_status=models.CharField(choices=APPOINTMENT_STATUS, max_length=10,default='Pending')\n    symptoms=models.TextField()\n    time=models.OneToOneField(DoctorAvailableTime,on_delete=models.CASCADE)\n    cancel=models.BooleanField(default=False)\n    def __str__(self) :\n        return f'Doctor: {self.doctor.name.first_name}, Patient: {self.patient.user.first_name}'",
+        "peekOfCode": "class AppointmentModel(models.Model):\n    patient = models.ForeignKey(PatientModel, on_delete=models.CASCADE)\n    doctor = models.ForeignKey(DoctorModel, on_delete=models.CASCADE)\n    appointment_types=models.CharField(choices=APPOINTMENT_TYPES, max_length=10)\n    appointment_status=models.CharField(choices=APPOINTMENT_STATUS, max_length=10,default='Pending')\n    symptoms=models.TextField()\n    time=models.ForeignKey(DoctorAvailableTime,on_delete=models.CASCADE)\n    cancel=models.BooleanField(default=False)\n    def __str__(self) :\n        return f'Doctor: {self.doctor.name.first_name}, Patient: {self.patient.user.first_name}'",
         "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentSerializers",
+        "kind": 6,
+        "importPath": "appointment.serializers",
+        "description": "appointment.serializers",
+        "peekOfCode": "class AppointmentSerializers(serializers.ModelSerializer):\n    patient=serializers.StringRelatedField(many=False)\n    doctor=serializers.StringRelatedField(many=False)\n    time=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = AppointmentModel\n        fields = '__all__'",
+        "detail": "appointment.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "appointment.urls",
+        "description": "appointment.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('appointment', AppointmentViewSet)\nurlpatterns=[\n    path('appointments/',include(router.urls))\n]",
+        "detail": "appointment.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AppointmentViewSet",
+        "kind": 6,
+        "importPath": "appointment.views",
+        "description": "appointment.views",
+        "peekOfCode": "class AppointmentViewSet(viewsets.ModelViewSet):\n    queryset = AppointmentModel.objects.all()\n    serializer_class = AppointmentSerializers\n    # custom query\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        patient_id = self.request.query_params.get('patient_id')\n        if patient_id:\n            queryset = queryset.filter(patient_id = patient_id)\n        return queryset",
+        "detail": "appointment.views",
         "documentation": {}
     },
     {
@@ -919,6 +1187,33 @@
         "description": "doctor.models",
         "peekOfCode": "class ReviewModel(models.Model):\n    reviewer=models.ForeignKey(PatientModel,on_delete=models.CASCADE)\n    doctor=models.ForeignKey(DoctorModel,on_delete=models.CASCADE)\n    body=models.TextField()\n    created=models.DateTimeField(auto_now_add=True)\n    rating=models.CharField(max_length=10,choices=STAR_CHOICES)\n    def __str__(self):\n        return f' Patient {self.reviewer.user.first_name}; Doctor : {self.doctor.name.first_name}'",
         "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorSerializers",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class DoctorSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = DoctorModel\n        fields = '__all__'",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "doctor.urls",
+        "description": "doctor.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('doctor',DoctorViewSet)\nurlpatterns=[\n    path('doctors/',include(router.urls))\n]",
+        "detail": "doctor.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers",
+        "detail": "doctor.views",
         "documentation": {}
     },
     {
@@ -1097,7 +1392,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nurlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('services/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n    # ... other URL patterns here\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nurlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('service/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n  path('appointment/', include('appointment.urls')),\n  path('doctor/', include('doctor.urls')),",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
@@ -1106,7 +1401,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('services/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('service/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n  path('appointment/', include('appointment.urls')),\n  path('doctor/', include('doctor.urls')),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
@@ -1162,6 +1457,33 @@
         "description": "patient.models",
         "peekOfCode": "class PatientModel(models.Model):\n    user=models.OneToOneField(User,on_delete=models.CASCADE)\n    image=models.ImageField(upload_to='patient/images/')\n    mobile_no=models.CharField(max_length=12)\n    def __str__(self):\n        return f'{self.user.first_name} {self.user.last_name}'\n    class Meta:\n        verbose_name_plural='Patient'",
         "detail": "patient.models",
+        "documentation": {}
+    },
+    {
+        "label": "PatientSerializers",
+        "kind": 6,
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "peekOfCode": "class PatientSerializers(serializers.ModelSerializer):\n    user=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = PatientModel\n        fields = '__all__'",
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "patient.urls",
+        "description": "patient.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('patient', PatientViewSets)\nurlpatterns=[\n    path('patients/',include(router.urls))\n]",
+        "detail": "patient.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PatientViewSets",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset=PatientModel.objects.all()\n    serializer_class= PatientSerializers",
+        "detail": "patient.views",
         "documentation": {}
     },
     {

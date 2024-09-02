@@ -27,8 +27,10 @@ urlpatterns = [
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('contact/', include('contact_us.urls')),
-  path('services/', include('service.urls')),
+  path('service/', include('service.urls')),
   path('patient/', include('patient.urls')),
+  path('appointment/', include('appointment.urls')),
+  path('doctor/', include('doctor.urls')),
     # ... other URL patterns here
 ]
 

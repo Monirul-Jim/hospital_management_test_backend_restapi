@@ -6,5 +6,5 @@ from service.views import ServicesViewSet
 router=DefaultRouter()
 router.register('services',ServicesViewSet)
 urlpatterns=[
-    path('service/', include(router.urls))
+    path('services/', include(router.urls))
 ]
