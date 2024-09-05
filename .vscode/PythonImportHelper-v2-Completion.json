@@ -866,6 +866,15 @@
         "documentation": {}
     },
     {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
+        "documentation": {}
+    },
+    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -890,11 +899,43 @@
         "documentation": {}
     },
     {
+        "label": "UserRegistrationViews",
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "isExtraImport": true,
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
         "label": "PatientSerializers",
         "importPath": "patient.serializers",
         "description": "patient.serializers",
         "isExtraImport": true,
         "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationSerializers",
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "isExtraImport": true,
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -1226,6 +1267,15 @@
         "documentation": {}
     },
     {
+        "label": "env",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "env = environ.Env()\nenviron.Evn.read_env()\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-!ru!_g+rmyl!=rxx3g!mf4xavok519j(-h_yvah=wg76#j%r-='\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
@@ -1347,7 +1397,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1356,7 +1406,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1365,7 +1415,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1374,7 +1424,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1383,7 +1433,61 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1464,7 +1568,7 @@
         "kind": 6,
         "importPath": "patient.serializers",
         "description": "patient.serializers",
-        "peekOfCode": "class PatientSerializers(serializers.ModelSerializer):\n    user=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = PatientModel\n        fields = '__all__'\nclass UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']",
+        "peekOfCode": "class PatientSerializers(serializers.ModelSerializer):\n    user=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = PatientModel\n        fields = '__all__'\nclass UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    # def validate_email(self,value):\n    #     if User.objects.filter(email=value).exists():\n    #         raise serializers.ValidationError({'error':'Email address already exists.'})",
         "detail": "patient.serializers",
         "documentation": {}
     },
@@ -1473,7 +1577,7 @@
         "kind": 6,
         "importPath": "patient.serializers",
         "description": "patient.serializers",
-        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']\n    def save(self):\n        username= self.validated_data['username']\n        email= self.validated_data['email']\n        password= self.validated_data['password']\n        password2= self.validated_data['confirm_password']",
+        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    # def validate_email(self,value):\n    #     if User.objects.filter(email=value).exists():\n    #         raise serializers.ValidationError({'error':'Email address already exists.'})\n    #     return value\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']\n    def save(self):",
         "detail": "patient.serializers",
         "documentation": {}
     },
@@ -1482,7 +1586,7 @@
         "kind": 5,
         "importPath": "patient.urls",
         "description": "patient.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('patient', PatientViewSets)\nurlpatterns=[\n    path('patients/',include(router.urls))\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('patient', PatientViewSets)\nurlpatterns=[\n    path('patients/',include(router.urls)),\n    path('register/', UserRegistrationViews.as_view(), name='register'),\n]",
         "detail": "patient.urls",
         "documentation": {}
     },
@@ -1491,7 +1595,7 @@
         "kind": 6,
         "importPath": "patient.views",
         "description": "patient.views",
-        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset=PatientModel.objects.all()\n    serializer_class= PatientSerializers\nclass UserRegistrationViews(viewsets.ModelViewSet):\n    pass",
+        "peekOfCode": "class PatientViewSets(viewsets.ModelViewSet):\n    queryset=PatientModel.objects.all()\n    serializer_class= PatientSerializers\nclass UserRegistrationViews(APIView):\n    serializer_class = UserRegistrationSerializers\n    def post(self,request):\n        serializer = self.serializer_class(data =  request.data)\n        if serializer.is_valid():\n            user =serializer.save()\n            print(user)",
         "detail": "patient.views",
         "documentation": {}
     },
@@ -1500,7 +1604,7 @@
         "kind": 6,
         "importPath": "patient.views",
         "description": "patient.views",
-        "peekOfCode": "class UserRegistrationViews(viewsets.ModelViewSet):\n    pass",
+        "peekOfCode": "class UserRegistrationViews(APIView):\n    serializer_class = UserRegistrationSerializers\n    def post(self,request):\n        serializer = self.serializer_class(data =  request.data)\n        if serializer.is_valid():\n            user =serializer.save()\n            print(user)\n            return Response('Done')\n        return Response(serializer.errors)",
         "detail": "patient.views",
         "documentation": {}
     },
