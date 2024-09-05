@@ -2,6 +2,8 @@ from django.shortcuts import render
 from appointment.serializers import AppointmentSerializers
 from appointment.models import AppointmentModel
 from rest_framework import viewsets
+from rest_framework.response import Response
+from rest_framework import status
 # Create your views here.
 
 class AppointmentViewSet(viewsets.ModelViewSet):
@@ -14,3 +16,19 @@ class AppointmentViewSet(viewsets.ModelViewSet):
         if patient_id:
             queryset = queryset.filter(patient_id = patient_id)
         return queryset
+    
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+        if queryset.exists():
+            serializer = self.get_serializer(queryset, many=True)
+            return Response({
+                "success": True,
+                "message": "Appointments fetched successfully",
+                "data": serializer.data
+            }, status=status.HTTP_200_OK)
+        else:
+            return Response({
+                "success": False,
+                "message": "Appointments Api Not Found !!",
+                "error": ""
+            }, status=status.HTTP_404_NOT_FOUND)

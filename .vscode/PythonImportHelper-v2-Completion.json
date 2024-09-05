@@ -441,6 +441,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -729,6 +737,22 @@
         "documentation": {}
     },
     {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
         "label": "ContactModel",
         "importPath": "contact_us.models",
         "description": "contact_us.models",
@@ -866,15 +890,6 @@
         "documentation": {}
     },
     {
-        "label": "environ",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "environ",
-        "description": "environ",
-        "detail": "environ",
-        "documentation": {}
-    },
-    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -928,14 +943,6 @@
         "description": "rest_framework.views",
         "isExtraImport": true,
         "detail": "rest_framework.views",
-        "documentation": {}
-    },
-    {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -1267,15 +1274,6 @@
         "documentation": {}
     },
     {
-        "label": "env",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "env = environ.Env()\nenviron.Evn.read_env()\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-!ru!_g+rmyl!=rxx3g!mf4xavok519j(-h_yvah=wg76#j%r-='\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
@@ -1397,7 +1395,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1406,7 +1404,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1415,7 +1413,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587\n# EMAIL_HOST_USER = env('EMAIL')",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1424,7 +1422,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587\n# EMAIL_HOST_USER = env('EMAIL')\n# EMAIL_HOST_PASSWORD = env('EMAIL_PASSWORD')",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1433,61 +1431,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_BACKEND",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_USE_TLS",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_PORT",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST_USER",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_HOST_USER = env('EMAIL')\nEMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
-        "detail": "hospital_management_backend.settings",
-        "documentation": {}
-    },
-    {
-        "label": "EMAIL_HOST_PASSWORD",
-        "kind": 5,
-        "importPath": "hospital_management_backend.settings",
-        "description": "hospital_management_backend.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = env(\"EMAIL_PASSWORD\")",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_USE_TLS = True\n# EMAIL_PORT = 587\n# EMAIL_HOST_USER = env('EMAIL')\n# EMAIL_HOST_PASSWORD = env('EMAIL_PASSWORD')",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
