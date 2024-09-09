@@ -979,6 +979,14 @@
         "documentation": {}
     },
     {
+        "label": "UserLoginApiView",
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "isExtraImport": true,
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
         "label": "UserRegistrationViews",
         "importPath": "patient.views",
         "description": "patient.views",
@@ -987,7 +995,23 @@
         "documentation": {}
     },
     {
+        "label": "UserLogoutView",
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "isExtraImport": true,
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
         "label": "PatientSerializers",
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "isExtraImport": true,
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializers",
         "importPath": "patient.serializers",
         "description": "patient.serializers",
         "isExtraImport": true,
@@ -1040,6 +1064,38 @@
         "description": "django.utils.encoding",
         "isExtraImport": true,
         "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
         "documentation": {}
     },
     {
@@ -1436,7 +1492,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'doctor',\n    'patient',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n     'rest_framework.authtoken',\n    'doctor',",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1688,7 +1744,7 @@
         "kind": 6,
         "importPath": "patient.serializers",
         "description": "patient.serializers",
-        "peekOfCode": "class PatientSerializers(serializers.ModelSerializer):\n    user=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = PatientModel\n        fields = '__all__'\nclass UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    # def validate_email(self,value):\n    #     if User.objects.filter(email=value).exists():\n    #         raise serializers.ValidationError({'error':'Email address already exists.'})",
+        "peekOfCode": "class PatientSerializers(serializers.ModelSerializer):\n    user=serializers.StringRelatedField(many=False)\n    class Meta:\n        model = PatientModel\n        fields = '__all__'\nclass UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']",
         "detail": "patient.serializers",
         "documentation": {}
     },
@@ -1697,7 +1753,16 @@
         "kind": 6,
         "importPath": "patient.serializers",
         "description": "patient.serializers",
-        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    # def validate_email(self,value):\n    #     if User.objects.filter(email=value).exists():\n    #         raise serializers.ValidationError({'error':'Email address already exists.'})\n    #     return value\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']\n    def save(self):",
+        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required = True)\n    class Meta:\n        model = User\n        fields = ['username','first_name','last_name','email','password','confirm_password']\n    def save(self):\n        username= self.validated_data['username']\n        first_name= self.validated_data['first_name']\n        last_name= self.validated_data['last_name']\n        email= self.validated_data['email']",
+        "detail": "patient.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializers",
+        "kind": 6,
+        "importPath": "patient.serializers",
+        "description": "patient.serializers",
+        "peekOfCode": "class UserLoginSerializers(serializers.Serializer):\n    username = serializers.CharField(required= True)\n    password = serializers.CharField(required= True)",
         "detail": "patient.serializers",
         "documentation": {}
     },
@@ -1706,7 +1771,7 @@
         "kind": 5,
         "importPath": "patient.urls",
         "description": "patient.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('patient', PatientViewSets)\nurlpatterns=[\n    path('patients/',include(router.urls)),\n    path('register/', UserRegistrationViews.as_view(), name='register'),\n    path('active/<uid64>/<token>/', views.activate, name='activate'),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('patient', PatientViewSets)\nurlpatterns=[\n    path('patients/',include(router.urls)),\n    path('register/', UserRegistrationViews.as_view(), name='register'),\n    path('login/', UserLoginApiView.as_view(), name='login'),\n    path('logout/', UserLogoutView.as_view(), name='logout'),\n    path('active/<uid64>/<token>/',activate, name='activate'),\n]",
         "detail": "patient.urls",
         "documentation": {}
     },
@@ -1729,11 +1794,29 @@
         "documentation": {}
     },
     {
+        "label": "UserLoginApiView",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class UserLoginApiView(APIView):\n    def post(self,request):\n        serializer = UserLoginSerializers(data =self.request.data)\n        if serializer.is_valid():\n            username = serializer.validated_data['username']\n            password = serializer.validated_data['password']\n            user =authenticate(username = username, password = password)\n            if user:\n                token , _ = Token.objects.get_or_create(user = user)\n                login(request,user)",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogoutView",
+        "kind": 6,
+        "importPath": "patient.views",
+        "description": "patient.views",
+        "peekOfCode": "class UserLogoutView(APIView):\n     def get(self, request):\n         request.user.auth_token.delete()\n         logout(request) \n         return redirect('login')",
+        "detail": "patient.views",
+        "documentation": {}
+    },
+    {
         "label": "activate",
         "kind": 2,
         "importPath": "patient.views",
         "description": "patient.views",
-        "peekOfCode": "def activate(request, uid64,token):\n    try:\n        uid=urlsafe_base64_decode(uid64).decode()\n        user = User._default_manager.get(pk = uid)\n    except(User.DoesNotExists):\n        user = None\n    if user is not None and default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        return redirect('register')",
+        "peekOfCode": "def activate(request, uid64,token):\n    try:\n        uid=urlsafe_base64_decode(uid64).decode()\n        user = User._default_manager.get(pk = uid)\n    except(User.DoesNotExists):\n        user = None\n    if user is not None and default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        return redirect('login')",
         "detail": "patient.views",
         "documentation": {}
     },

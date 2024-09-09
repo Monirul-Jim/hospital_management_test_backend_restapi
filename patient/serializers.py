@@ -12,12 +12,6 @@ class PatientSerializers(serializers.ModelSerializer):
 class UserRegistrationSerializers(serializers.ModelSerializer):
     
     confirm_password = serializers.CharField(required = True)
-
-    # def validate_email(self,value):
-    #     if User.objects.filter(email=value).exists():
-    #         raise serializers.ValidationError({'error':'Email address already exists.'})
-    #     return value
-    
     class Meta:
         model = User
         fields = ['username','first_name','last_name','email','password','confirm_password']
@@ -42,3 +36,7 @@ class UserRegistrationSerializers(serializers.ModelSerializer):
         account.is_active=False
         account.save()
         return account
+    
+class UserLoginSerializers(serializers.Serializer):
+    username = serializers.CharField(required= True)
+    password = serializers.CharField(required= True)
