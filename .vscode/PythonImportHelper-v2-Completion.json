@@ -161,38 +161,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -225,6 +193,46 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -246,6 +254,14 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -326,6 +342,126 @@
         "description": "appointment.models",
         "isExtraImport": true,
         "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -465,7 +601,23 @@
         "documentation": {}
     },
     {
+        "label": "DoctorAvailableTime",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
         "label": "DoctorModel",
+        "importPath": "doctor.models",
+        "description": "doctor.models",
+        "isExtraImport": true,
+        "detail": "doctor.models",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorAvailableTime",
         "importPath": "doctor.models",
         "description": "doctor.models",
         "isExtraImport": true,
@@ -497,7 +649,7 @@
         "documentation": {}
     },
     {
-        "label": "status",
+        "label": "pagination",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -513,15 +665,7 @@
         "documentation": {}
     },
     {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
+        "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -561,6 +705,22 @@
         "documentation": {}
     },
     {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -574,6 +734,30 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -737,15 +921,7 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
+        "label": "resolve",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -769,59 +945,19 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -862,6 +998,38 @@
         "description": "rest_framework.permissions",
         "isExtraImport": true,
         "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "BasePermission",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -993,11 +1161,11 @@
         "documentation": {}
     },
     {
-        "label": "IsAuthenticatedCustom",
-        "importPath": "common.permissions",
-        "description": "common.permissions",
+        "label": "DoctorAvailableTimeSerializers",
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
         "isExtraImport": true,
-        "detail": "common.permissions",
+        "detail": "doctor.serializers",
         "documentation": {}
     },
     {
@@ -1064,6 +1232,14 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "MiddlewareMixin",
+        "importPath": "django.utils.deprecation",
+        "description": "django.utils.deprecation",
+        "isExtraImport": true,
+        "detail": "django.utils.deprecation",
         "documentation": {}
     },
     {
@@ -1203,22 +1379,6 @@
         "documentation": {}
     },
     {
-        "label": "EmailMultiAlternatives",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
-        "isExtraImport": true,
-        "detail": "django.core.mail",
-        "documentation": {}
-    },
-    {
-        "label": "render_to_string",
-        "importPath": "django.template.loader",
-        "description": "django.template.loader",
-        "isExtraImport": true,
-        "detail": "django.template.loader",
-        "documentation": {}
-    },
-    {
         "label": "ServiceModels",
         "importPath": "service.models",
         "description": "service.models",
@@ -1290,7 +1450,7 @@
         "kind": 6,
         "importPath": "appointment.admin",
         "description": "appointment.admin",
-        "peekOfCode": "class AppointmentAdmin(admin.ModelAdmin):\n    list_display=['doctor_name','patient_name','appointment_types','appointment_status','symptoms','time','cancel']\n    def patient_name(self,obj):\n        return obj.patient.user.first_name\n    def doctor_name(self,obj):\n        return obj.doctor.name.first_name\nadmin.site.register(AppointmentModel,AppointmentAdmin)",
+        "peekOfCode": "class AppointmentAdmin(admin.ModelAdmin):\n    list_display=['doctor_name','patient_name','appointment_types','appointment_status','symptoms','time','cancel']\n    def patient_name(self,obj):\n        return obj.patient.user.first_name\n    def doctor_name(self,obj):\n        return obj.doctor.name.first_name\n    def save_model(self,request,obj,form,change):\n        obj.save()\n        if obj.appointment_status == 'Running' and obj.appointment_types == 'Online':\n            email_subject = 'Meeting With Your Doctor'",
         "detail": "appointment.admin",
         "documentation": {}
     },
@@ -1331,11 +1491,20 @@
         "documentation": {}
     },
     {
+        "label": "AppointmentPagination",
+        "kind": 6,
+        "importPath": "appointment.views",
+        "description": "appointment.views",
+        "peekOfCode": "class AppointmentPagination(pagination.PageNumberPagination):\n    page_size = 3\n    page_size_query_param = 'page_size'\n    max_page_size = 100\nclass AppointmentViewSet(viewsets.ModelViewSet):\n    queryset = AppointmentModel.objects.all()\n    serializer_class = AppointmentSerializers\n    pagination_class = AppointmentPagination\n    # custom query\n    def get_queryset(self):",
+        "detail": "appointment.views",
+        "documentation": {}
+    },
+    {
         "label": "AppointmentViewSet",
         "kind": 6,
         "importPath": "appointment.views",
         "description": "appointment.views",
-        "peekOfCode": "class AppointmentViewSet(viewsets.ModelViewSet):\n    queryset = AppointmentModel.objects.all()\n    serializer_class = AppointmentSerializers\n    # custom query\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        patient_id = self.request.query_params.get('patient_id')\n        if patient_id:\n            queryset = queryset.filter(patient_id = patient_id)\n        return queryset",
+        "peekOfCode": "class AppointmentViewSet(viewsets.ModelViewSet):\n    queryset = AppointmentModel.objects.all()\n    serializer_class = AppointmentSerializers\n    pagination_class = AppointmentPagination\n    # custom query\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        patient_id = self.request.query_params.get('patient_id')\n        if patient_id:\n            queryset = queryset.filter(patient_id = patient_id)",
         "detail": "appointment.views",
         "documentation": {}
     },
@@ -1551,7 +1720,16 @@
         "kind": 6,
         "importPath": "doctor.serializers",
         "description": "doctor.serializers",
-        "peekOfCode": "class DoctorSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = DoctorModel\n        fields = '__all__'",
+        "peekOfCode": "class DoctorSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = DoctorModel\n        fields = '__all__'\nclass DoctorAvailableTimeSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = DoctorAvailableTime\n        fields = '__all__'",
+        "detail": "doctor.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorAvailableTimeSerializers",
+        "kind": 6,
+        "importPath": "doctor.serializers",
+        "description": "doctor.serializers",
+        "peekOfCode": "class DoctorAvailableTimeSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = DoctorAvailableTime\n        fields = '__all__'",
         "detail": "doctor.serializers",
         "documentation": {}
     },
@@ -1560,8 +1738,26 @@
         "kind": 5,
         "importPath": "doctor.urls",
         "description": "doctor.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('doctor',DoctorViewSet)\nurlpatterns=[\n    path('doctors/',include(router.urls))\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('doctor',DoctorViewSet)\nurlpatterns=[\n    path('doctors/',include(router.urls)),\n    path('available-time/',include(router.urls))\n]",
         "detail": "doctor.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AvailableTimeForSpecificDoctor",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class AvailableTimeForSpecificDoctor(filters.BaseFilterBackend):\n    def filter_query_set(self,request,query_set,view):\n        doctor_id = request.query_params.get('doctor_id')\n        if doctor_id:\n            return query_set.filter(doctor = doctor_id)\n        return query_set\nclass DoctorAvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = DoctorAvailableTime.objects.all()\n    serializer_class = DoctorAvailableTimeSerializers\n    filter_backends = [AvailableTimeForSpecificDoctor]",
+        "detail": "doctor.views",
+        "documentation": {}
+    },
+    {
+        "label": "DoctorAvailableTimeViewSet",
+        "kind": 6,
+        "importPath": "doctor.views",
+        "description": "doctor.views",
+        "peekOfCode": "class DoctorAvailableTimeViewSet(viewsets.ModelViewSet):\n    queryset = DoctorAvailableTime.objects.all()\n    serializer_class = DoctorAvailableTimeSerializers\n    filter_backends = [AvailableTimeForSpecificDoctor]\nclass DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers\n    permission_classes=[IsAuthenticatedOrReadOnly]\n    # permission_classes=[IsAuthenticated]\n    # permission_classes=[IsAuthenticatedCustom]",
+        "detail": "doctor.views",
         "documentation": {}
     },
     {
@@ -1569,7 +1765,7 @@
         "kind": 6,
         "importPath": "doctor.views",
         "description": "doctor.views",
-        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers\n    permission_classes=[IsAuthenticatedCustom]",
+        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers\n    permission_classes=[IsAuthenticatedOrReadOnly]\n    # permission_classes=[IsAuthenticated]\n    # permission_classes=[IsAuthenticatedCustom]",
         "detail": "doctor.views",
         "documentation": {}
     },
@@ -1632,7 +1828,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n     'rest_framework.authtoken',\n    'doctor',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'rest_framework.authtoken',\n    'django_filters',",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1641,7 +1837,7 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'hospital_management_backend.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    # 'middleware_app.middleware.IsAuthenticatedCustomMiddleware',\n]",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1668,7 +1864,16 @@
         "kind": 5,
         "importPath": "hospital_management_backend.settings",
         "description": "hospital_management_backend.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'hospital_management_backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'hospital_management_backend.wsgi.application'\nREST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.IsAuthenticated',\n    ]\n}\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {",
+        "detail": "hospital_management_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "hospital_management_backend.settings",
+        "description": "hospital_management_backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.IsAuthenticated',\n    ]\n}\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {",
         "detail": "hospital_management_backend.settings",
         "documentation": {}
     },
@@ -1841,6 +2046,24 @@
         "description": "hospital_management_backend.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "hospital_management_backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "MiddlewareAppConfig",
+        "kind": 6,
+        "importPath": "middleware_app.apps",
+        "description": "middleware_app.apps",
+        "peekOfCode": "class MiddlewareAppConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'middleware_app'",
+        "detail": "middleware_app.apps",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedCustomMiddleware",
+        "kind": 6,
+        "importPath": "middleware_app.middleware",
+        "description": "middleware_app.middleware",
+        "peekOfCode": "class IsAuthenticatedCustomMiddleware(MiddlewareMixin):\n    custom_message = {\n        \"success\": False,\n        \"message\": 'unauthorize',\n        \"errorSources\": [\n            {\n                \"path\": \"\",\n                \"message\": \"unauthorize\"\n            }\n        ],",
+        "detail": "middleware_app.middleware",
         "documentation": {}
     },
     {

@@ -1,0 +1,17 @@
+<div>
+  <h1>Meeting With Your Doctor</h1>
+  <p>Hello, {{ user.first_name }} {{ user.last_name }}</p>
+  <p>
+    We hope you are doing well. You have requested an online appointment with
+    Dr. {{ doctor.name.first_name }} {{ doctor.name.last_name }}.
+  </p>
+  <p>
+    Your doctor is available to meet with you. Please use the link below to join
+    the appointment within the next 5 minutes:
+  </p>
+  <p>
+    Meet Link :
+    <a href="{{ doctor.meet_link }}" target="_blank"> {{ doctor.meet_link }}</a>
+  </p>
+  <p>&copy; 2024 Your Company. All rights reserved.</p>
+</div>

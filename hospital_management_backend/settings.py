@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-     'rest_framework.authtoken',
+    'rest_framework.authtoken',
+    'django_filters',
     'doctor',
     'patient',
     'appointment',
@@ -61,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'middleware_app.middleware.IsAuthenticatedCustomMiddleware',
 ]
 
 ROOT_URLCONF = 'hospital_management_backend.urls'
@@ -83,7 +85,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'hospital_management_backend.wsgi.application'
 
-
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+    
+}
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
