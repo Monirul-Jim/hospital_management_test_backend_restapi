@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'appointment',
     'service',
     'contact_us',
+    'common',
     
 ]
 

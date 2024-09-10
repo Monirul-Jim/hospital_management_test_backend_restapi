@@ -17,12 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from django.conf import settings
+from common.utils import custom_not_found_page,custom_server_error_page
 from django.conf.urls.static import static
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
-
 
 urlpatterns = [
   path('admin/', admin.site.urls),
@@ -33,5 +29,6 @@ urlpatterns = [
   path('doctor/', include('doctor.urls')),
     # ... other URL patterns here
 ]
-
+handler404 = 'common.utils.custom_not_found_page'
+handler500 = 'common.utils.custom_server_error_page'
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

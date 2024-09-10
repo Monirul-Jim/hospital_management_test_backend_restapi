@@ -49,14 +49,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -145,30 +137,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -217,6 +185,46 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -238,6 +246,14 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -310,6 +326,14 @@
         "description": "appointment.models",
         "isExtraImport": true,
         "detail": "appointment.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -473,7 +497,7 @@
         "documentation": {}
     },
     {
-        "label": "serializers",
+        "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -481,23 +505,7 @@
         "documentation": {}
     },
     {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
+        "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -534,6 +542,46 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -753,6 +801,14 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -790,6 +846,30 @@
         "description": "rest_framework.response",
         "isExtraImport": true,
         "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "BasePermission",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -913,6 +993,14 @@
         "documentation": {}
     },
     {
+        "label": "IsAuthenticatedCustom",
+        "importPath": "common.permissions",
+        "description": "common.permissions",
+        "isExtraImport": true,
+        "detail": "common.permissions",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -944,6 +1032,22 @@
         "importPath": "environ",
         "description": "environ",
         "detail": "environ",
+        "documentation": {}
+    },
+    {
+        "label": "custom_not_found_page",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "custom_server_error_page",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
         "documentation": {}
     },
     {
@@ -1236,6 +1340,42 @@
         "documentation": {}
     },
     {
+        "label": "CommonConfig",
+        "kind": 6,
+        "importPath": "common.apps",
+        "description": "common.apps",
+        "peekOfCode": "class CommonConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'common'",
+        "detail": "common.apps",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedCustom",
+        "kind": 6,
+        "importPath": "common.permissions",
+        "description": "common.permissions",
+        "peekOfCode": "class IsAuthenticatedCustom(BasePermission):\n    message={\n        \"success\":False,\n        \"message\":'unauthorize',\n        \"errorSources\":[\n          {  \n           \"path\":\"\",\n           \"message\":\"unauthorize\"\n           }\n        ],",
+        "detail": "common.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "custom_not_found_page",
+        "kind": 2,
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "peekOfCode": "def custom_not_found_page(request, exception=None):\n    response = {\n        \"success\": False,\n        \"message\": \"API Not Found !!\",\n        \"error\": \"\",\n    }\n    return JsonResponse(response, status=status.HTTP_404_NOT_FOUND)\n# Custom 500 handler\ndef custom_server_error_page(request):\n    response = {",
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "custom_server_error_page",
+        "kind": 2,
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "peekOfCode": "def custom_server_error_page(request):\n    response = {\n        \"success\": False,\n        \"message\": \"Server Error !!\",\n        \"error\": \"\",\n    }\n    return JsonResponse(response, status=status.HTTP_500_INTERNAL_SERVER_ERROR)",
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "contact_us.migrations.0001_initial",
@@ -1429,7 +1569,7 @@
         "kind": 6,
         "importPath": "doctor.views",
         "description": "doctor.views",
-        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers",
+        "peekOfCode": "class DoctorViewSet(viewsets.ModelViewSet):\n    queryset = DoctorModel.objects.all()\n    serializer_class = DoctorSerializers\n    permission_classes=[IsAuthenticatedCustom]",
         "detail": "doctor.views",
         "documentation": {}
     },
@@ -1672,16 +1812,25 @@
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]\nurlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('service/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n  path('appointment/', include('appointment.urls')),\n  path('doctor/', include('doctor.urls')),",
+        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('service/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n  path('appointment/', include('appointment.urls')),\n  path('doctor/', include('doctor.urls')),\n    # ... other URL patterns here\n]\nhandler404 = 'common.utils.custom_not_found_page'",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
     {
-        "label": "urlpatterns",
+        "label": "handler404",
         "kind": 5,
         "importPath": "hospital_management_backend.urls",
         "description": "hospital_management_backend.urls",
-        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('contact/', include('contact_us.urls')),\n  path('service/', include('service.urls')),\n  path('patient/', include('patient.urls')),\n  path('appointment/', include('appointment.urls')),\n  path('doctor/', include('doctor.urls')),\n    # ... other URL patterns here\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "handler404 = 'common.utils.custom_not_found_page'\nhandler500 = 'common.utils.custom_server_error_page'\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "hospital_management_backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler500",
+        "kind": 5,
+        "importPath": "hospital_management_backend.urls",
+        "description": "hospital_management_backend.urls",
+        "peekOfCode": "handler500 = 'common.utils.custom_server_error_page'\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "hospital_management_backend.urls",
         "documentation": {}
     },
